@@ -58,6 +58,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
+    implementation ("androidx.compose.ui:ui:1.5.1")
+    implementation ("androidx.compose.foundation:foundation-layout:1.5.1")
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
